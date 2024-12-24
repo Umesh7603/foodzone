@@ -1,0 +1,76 @@
+.navbar_bg{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.navbar-nav a{
+    font-weight: bolder;
+}
+.navbar-nav a:hover{
+    color: orange;
+}
+.nav-link{
+    color: white;
+    margin-left: 10px;
+}
+#home_bg{
+    background-image: url(images/image1.jpg);
+    height: 650px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home_content{
+    margin-top: 110px;
+    margin-left: 30px;
+}
+.img_size{
+    height: 240px;
+    width: 300px;
+}
+.float-start{
+    font-weight: bold;
+    color: red;
+    margin-left: 5px;
+}
+.float-end{
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-right:5px ;
+}
+.icons a{
+    margin-left: 10px;
+    color: white;
+}
+.img_height{
+    height: 290px;
+}
+#about{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+#check {
+    font-size: 50px; /* Adjust size as needed */
+    background-color: green;
+    color: white; /* White tick mark */
+    border-radius: 50%; /* Circular background */
+    padding: 20px; /* Add space around the icon */
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+}
+
+#order_content{
+    width: 80%;
+}
+  
+
+.footer_bg{
+    background-color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-center mt-4 fw-bolder">Contact Details</h3>
+        </div>
+    </div>
+    <hr>
+</div>
+
+<div class="container">
+<!-- Order details form -->
+    <div class="row mt-4 d-flex justify-content-center">
+        <div class="col col-6">
+            <h4>Billing Information</h4>
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="address" class="form-label">Shipping Address</label>
+                    <textarea name="address" id="address" class="form-control border-black" rows="3" placeholder="Enter your shipping address"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="contact_number" class="form-label">Contact Number</label>
+                    <input type="text" name="contact_number" id="contact_number" class="form-control border-black" placeholder="Enter your contact number">
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary me-4 mt-4" onclick="window.history.back();">Back to Cart</button>
+                    <a class="btn btn-success mt-4" href="{%url 'order'%}">Confirm Order</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <hr>
+</div>
+
+{% endblock %}
